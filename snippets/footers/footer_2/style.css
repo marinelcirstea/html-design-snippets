@@ -75,14 +75,17 @@
     font-size: 28px;
     font-weight: 400;
     color:#0275f1;
+    margin-bottom: 5px;
 }
 .footer__top-link{
     font-size: 28px;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-    color:#0275e1;
-
+    color:#0275f1;
+}
+.footer__top-link:hover{
+    color: #0275a1;
 }
 .footer__top,.footer__bottom{
     display: flex;
@@ -93,6 +96,7 @@
 .footer__logo{
     max-width: 128px;
     margin: auto;
+    margin-top: 0;
 }
 .footer__logo img{
     width: 100%;
@@ -111,6 +115,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     color: #5f6880 ;
+    text-transform: uppercase;
 }
 .footer__section-link,.footer__newsletter-copy{
     text-decoration: none;
