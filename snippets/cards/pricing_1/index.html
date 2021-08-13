@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="cards" id="pricing">
+        <!-- RADIO INPUTS FOR PRICING TOGGLE -->
+        <input type="radio" class='pricing__choice' name="pricing__choice" id="pricing__annually" checked='true'>
+        <input type="radio" class='pricing__choice' name="pricing__choice" id="pricing__monthly">
+        <!--  -->
+        <div class="cards__container">
+            <div class="cards__copy">
+                <h1 class="cards__title">Pricing</h1>
+                <div class="cards__copy-toggle">
+                    <!-- LABELS FOR RADIO INPUTS -->
+                    <label for="pricing__monthly" class="cards__copy-toggle-monthly">Monthly</label>
+                    <label for="pricing__annually" class="cards__copy-toggle-annually">Annually</label>
+                </div>
+            </div>
+            <div class="cards__list">
+                <div class="card">
+                    <div class="card__inner">
+                        <h3 class="card__title">Basic</h3>
+                        <p class="card__price card__price-annually">$239.99<span class="price__type">/year</span></p>
+                        <p class="card__price card__price-monthly">$24.99<span class="price__type">/month</span></p>
+                        <p class="card__feature">Feature One</p>
+                        <p class="card__feature">Feature Two</p>
+                        <p class="card__feature">Feature Three</p>
+                        <button type="button" class="button card__button">Get Started</button>
+                    </div>
+                </div>
+                <div class="card main__card">
+                    <div class="card__inner">
+                        <h3 class="card__title">Professional</h3>
+                        <p class="card__price card__price-annually">$239.99<span class="price__type">/year</span></p>
+                        <p class="card__price card__price-monthly">$24.99<span class="price__type">/month</span></p>
+                        <p class="card__feature">Feature One</p>
+                        <p class="card__feature">Feature Two</p>
+                        <p class="card__feature">Feature Three</p>
+                        <p class="card__feature">Feature Four</p>
+                        <button type="button" class="button card__button">Get Started</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__inner">
+                        <h3 class="card__title">Business</h3>
+                        <p class="card__price card__price-annually">$239.99<span class="price__type">/year</span></p>
+                        <p class="card__price card__price-monthly">$24.99<span class="price__type">/month</span></p>
+                        <p class="card__feature">Feature One</p>
+                        <p class="card__feature">Feature Two</p>
+                        <p class="card__feature">Feature Three</p>
+                        <p class="card__feature">Feature Four</p>
+                        <p class="card__feature">Feature Five</p>
+                        <button type="button" class="button card__button">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
